@@ -1,6 +1,6 @@
 import pickle
 import streamlit as st
-from streamlit_option_menu import option_menu 
+ 
 # loading the saved models
 diabetes_model = pickle.load(open('c:\\users\\kiit0001\\desktop\\multiple disease prediction\\diabetes_model.sav','rb'))
 
