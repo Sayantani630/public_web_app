@@ -13,19 +13,18 @@ with st.sidebar:
                          
                          ['Diabetes Prediction',
                            'Heart Disease Prediction',
-...                            'Parkinsons Prediction'],
-...                           icons=['activity','heart','person'],
-...                           default_index=0)
-... 
-... 
-... 
-... # Diabetes Prediction Page
-... if (selected == 'Diabetes Prediction'):
-...     
-...     # page title
-...     st.title('Diabetes Prediction using ML')
-...     
-...     
+                            'Parkinsons Prediction'],
+                         icons=['activity','heart','person'],
+                         default_index=0)
+
+ 
+ 
+# Diabetes Prediction Page
+if (selected == 'Diabetes Prediction'):
+    
+# page title
+st.title('Diabetes Prediction using ML')
+      
     # getting the input data from the user
     col1, col2, col3 = st.columns(3)
     
